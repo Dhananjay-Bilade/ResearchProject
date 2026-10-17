@@ -11,8 +11,9 @@
 4. [Methodology & Implementation](#-methodology--implementation)
 5. [Key Results & Performance Metrics](#-key-results--performance-metrics)
 6. [Repository Structure](#-repository-structure)
-7. [Getting Started & Installation](#-getting-started--installation)
-8. [Execution Guide](#-execution-guide)
+7. [Dataset Source](#-dataset-source)
+8. [Getting Started & Installation](#-getting-started--installation)
+9. [Execution Guide](#-execution-guide)
 
 ---
 
@@ -75,12 +76,19 @@ Evaluated on large-scale transaction hold-out test splits, the system achieved t
 
 ---
 
+## 📥 Dataset Source
+
+* **PaySim Mobile Money Financial Dataset:** The primary raw dataset used for this research can be downloaded from Kaggle: [Kaggle - PaySim Synthetic Financial Datasets For Fraud Detection](https://www.kaggle.com/datasets/ealaxi/paysim1).
+* **ULB European Credit Card Fraud Dataset:** Secondary benchmark dataset used for validation.
+
+---
+
 ## 🗂️ Repository Structure
 
 ```text
-credit_card_fraud_detection/
+ResearchProject/
 ├── data/
-│   └── raw/                  # Raw transaction datasets (PaySim_log.csv)
+│   └── raw/                  # Download raw PaySim_log.csv from Kaggle and place it here
 ├── notebooks/                # Exploratory Jupyter notebooks
 │   ├── 01_eda_and_preprocessing.ipynb
 │   ├── 02_imbalance_handling_smote.ipynb
@@ -96,6 +104,3 @@ credit_card_fraud_detection/
 │   └── figures/              # Exported SHAP summary plots & PR curves
 ├── main.py                   # Single-command execution entry point
 └── requirements.txt          # Project dependencies
-
-### 📥 Dataset Source
-* **PaySim Mobile Money Financial Logs:** Download the raw dataset from [Kaggle - PaySim Synthetic Financial Datasets For Fraud Detection](https://www.kaggle.com/datasets/ealaxi/paysim1) and place the `PaySim_log.csv` file inside the `data/raw/` directory.
