@@ -78,7 +78,7 @@ Evaluated on large-scale transaction hold-out test splits, the system achieved t
 
 ## 📥 Dataset Source
 
-* **PaySim Mobile Money Financial Dataset:** The primary raw dataset used for this research can be downloaded from Kaggle: [Kaggle - PaySim Synthetic Financial Datasets For Fraud Detection](https://www.kaggle.com/datasets/ealaxi/paysim1).
+* **PaySim Mobile Money Financial Dataset:** The primary raw dataset used for this research can be downloaded from Kaggle: [Kaggle - PaySim Synthetic Financial Datasets For Fraud Detection]([https://www.kaggle.com/datasets/ealaxi/paysim1](https://www.kaggle.com/datasets/ealaxi/paysim1)).
 * **ULB European Credit Card Fraud Dataset:** Secondary benchmark dataset used for validation.
 
 ---
